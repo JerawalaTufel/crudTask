@@ -1,0 +1,242 @@
+{
+	"info": {
+		"_postman_id": "497d1d45-bc22-4979-affc-a97c85a1bf35",
+		"name": "TASK",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21607046",
+		"_collection_link": "https://blue-space-118440.postman.co/workspace/New-Team-Workspace~46b97068-174a-4d38-96ba-71b8271e719d/collection/21607046-497d1d45-bc22-4979-affc-a97c85a1bf35?action=share&source=collection_link&creator=21607046"
+	},
+	"item": [
+		{
+			"name": "CREATE-TASK",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\" : \"tufel jerawala1\",\n    \"email\" : \"tufel@gmail.com\",\n    \"number\" : \"9316108363\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/create-task",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"create-task"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "CREATE-TASK",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\" : \"tufel jerawala1\",\n    \"email\" : \"tufel@gmail.com\",\n    \"number\" : \"9316108363\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/create-task",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"create-task"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "LIST-TASK-DATA",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/get-task",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"get-task"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "LIST-TASK-DATA",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/get-task",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"get-task"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				},
+				{
+					"name": "LIST-TASK-DATA",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/get-task/662f977ac9780d2528e3369c",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"get-task",
+								"662f977ac9780d2528e3369c"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "UPDATE-TASK",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\" : \"tufel jerawala\",\n    \"email\" : \"tufel@gmail.com\",\n    \"number\" : \"9316108363\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/update-task/662f92d1958e3994a90a8830",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"update-task",
+						"662f92d1958e3994a90a8830"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "UPDATE-TASK",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\" : \"tufel jerawala\",\n    \"email\" : \"tufel@gmail.com\",\n    \"number\" : \"9316108363\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/update-task/662f92d1958e3994a90a8830",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"update-task",
+								"662f92d1958e3994a90a8830"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "DELETE-TASK",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/delete-task/662f92d1958e3994a90a8830",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"delete-task",
+						"662f92d1958e3994a90a8830"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "DELETE-TASK",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/delete-task/662f92d1958e3994a90a8830",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"delete-task",
+								"662f92d1958e3994a90a8830"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		}
+	]
+}
